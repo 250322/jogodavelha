@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap&#39');
+
+body {
+    font-family: "Open Sans";
+    background-color: rgb(172, 111, 132);
+
+}
+
+h2 {
+    margin-top: -5px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto; 
+    max-width: 240px; 
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(173, 84, 151);
+    border: 3px solid rgb(56, 29, 43);
+
+}
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.celula {
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: 3px;
+    text-align: center;
+    background-color: rgb(139, 135, 199);
+}
+
+.botam-recarregar {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding:10px 20px ;
+    border: 2px solid rgb(245, 245, 245);
+    background-color: rgb(180, 82, 95);
+    color: #ffffff;
+    cursor: pointer;
+}
+
